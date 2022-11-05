@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-color: #0F172A;
+}
+.nav {
+    display: flex;
+    gap: 50px;
+}
+.nav a {
+    font-size: 24px;
+    line-height: 28px; 
+    color: #F8FAFC;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 38px 100px; 
+}
+.main {
+    padding: 94px 145px;
+}
+.recent-projects {
+    font-weight: 700px;
+    font-size: 48px;
+    color: #F8FAFC;
+    margin-bottom: 40px;
+    }
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.article1 {
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34px 84px 34px 8px;
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+.article2 {
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 46px 93px 46px 17px;
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+.article3 {
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 55px 103px 55px 27px;
+    display: flex;
+    gap: 106px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.article-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.p {
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+        }
+.h3 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+    }
+.latest-posts {
+        font-weight: 700px;
+        font-size: 48px;
+        color: #F8FAFC;
+        margin-bottom: 82px;
+        } 
+.card {
+    display: flex;
+    gap: 20px;
+}
+.card-posts{
+    background: #1E293B;
+    border-radius: 8%;
+    
+}
+.card-posts img{
+    margin-bottom: 23px;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+   
+
+}
+.card-h3{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #F8FAFC;
+    margin-bottom: 15px;
+}
+.p-text {
+    gap: 60px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F8FAFC;
+    padding: 20px 30px 72px 14px;
+}
+.p-date { 
+    color: #9CA3AF;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 120px;
+    border-top: 1px solid #CBD5E1;;
+}
+.footer-span {
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 50px;
+    gap: 20px;
+}
+.linkedin{
+    margin-top: -5px;
+    margin-left: -5px;
+}
